@@ -1,39 +1,45 @@
-.navi{
+.navi {
   display: flex;
   justify-content: space-between;
   align-items: center;
 
 }
-.App{
-  background-color:  lab(98.42% 0.67 0.22);
-  color: rgb(43, 38, 38);
-  
-}
-.main{
-  border: 15px solid  lab(98.42% 0.67 0.22);
+
+.App {
   background-color: lab(98.42% 0.67 0.22);
-  
+  color: rgb(43, 38, 38);
 
 }
-#man{
+
+.main {
+  border: 15px solid lab(98.42% 0.67 0.22);
+  background-color: lab(98.42% 0.67 0.22);
+
+
+}
+
+#man {
   background-color: black;
   color: white;
   padding: 2%;
   text-align: center;
 }
-#man:hover{
+
+#man:hover {
   background-color: rgba(154, 7, 7, 0.897);
 }
-.foot{
+
+.foot {
   background-color: rgba(30, 29, 29, 0.936);
   color: rgb(151, 150, 150);
   padding: 2%;
   padding-bottom: 1%;
   margin: 0%;
-  border:  rgba(30, 29, 29, 0.936);
+  border: rgba(30, 29, 29, 0.936);
   font-size: 1.1em;
 }
-#subi{
+
+#subi {
   background-color: rgb(179, 10, 10);
   width: 96%;
   text-align: center;
@@ -43,246 +49,291 @@
   border-radius: 0;
 }
 
-.big{
+.big {
   font-size: 2.6em;
   margin: 0.5em;
   word-spacing: 0;
-  line-height:1em;
+  line-height: 1em;
   font-weight: light;
   margin-left: 0.1em;
 }
-.big1{
+
+.big1 {
   font-size: 2.8em;
   margin: 0.5em;
   word-spacing: 0;
   line-height: 1.5em;
   text-align: center;
 }
-.small{
+
+.small {
   font-size: 0.87em;
   width: 80%;
 }
-#tex{
+
+#tex {
   font-size: 0.87em;
   width: 80%;
 }
-.small3{
+
+.small3 {
   font-size: 0.9em;
   width: 75%;
   padding-left: 20%;
 }
-.small2{
+
+.small2 {
   font-size: 1.4em;
   line-height: 1.1em;
   width: 90%;
 }
-.small4{
+
+.small4 {
   font-size: 1em;
   width: 64%;
   text-align: center;
   padding-left: 15%;
 
 }
-.form{
+
+.form {
   background-color: hsla(180, 12%, 97%, 0.878);
   margin-top: 20%;
   text-decoration: none;
 
 }
-img.red{
-      height: 350px;
-      object-fit: cover;
-       width: 100%;
-       padding-top: 10%;
-       padding-bottom: 13%;
+
+img.red {
+  height: 350px;
+  object-fit: cover;
+  width: 100%;
+  padding-top: 10%;
+  padding-bottom: 13%;
 }
-img.ship{
-  width:100%;
- 
+
+img.ship {
+  width: 100%;
+
 }
-input{
-   background-color: transparent;
-   border: none;
-   outline: none;
-   padding-bottom: 3%;
-   font-size: 1.07em;
- 
-   color: black;
-   
+
+input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-bottom: 3%;
+  font-size: 1.07em;
+
+  color: black;
+
 }
-.bean{
+
+.bean {
   color: white;
 
 }
+
 nav {
-   display: ruby;
-   position:  fixed;
+  display: ruby;
+  position: fixed;
   margin-top: 10%;
-   background-color: rgb(240, 248, 255);
-   width: 90%;
-   height: 16%;
-   list-style: none;
-   font-size: 0.8em;
+  background-color: rgb(240, 248, 255);
+  width: 90%;
+  height: 16%;
+  list-style: none;
+  font-size: 0.8em;
 }
-.luffy{
+
+.luffy {
   padding-left: 5%;
   padding-top: 2%;
 }
-.zoro{
+
+.zoro {
   padding-left: 2%;
 }
-#fish{
+
+#fish {
   color: grey;
 }
-.omo{
+
+.omo {
   text-decoration: underline;
 }
-.yesay{
+
+.yesay {
   border-bottom: solid 0.01em grey;
   width: 100%;
   padding-bottom: 2%;
   padding-top: 6%;
 }
-.yesa{
+
+.yesa {
   border-bottom: solid 0.01em grey;
   width: 100%;
   padding-bottom: 2%;
   padding-top: 6%;
 }
-#egg{
+
+#egg {
   border-bottom: solid 0.01em grey;
 }
 
 @media (min-width: 1024px) {
 
-  .one{
+  .one {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 10%;
   }
-  .big{
+
+  .big {
     font-size: 3.2em;
     width: 50%;
   }
-  .small{
+
+  .small {
     width: 22%;
     margin-right: 15em;
   }
-  input{
+
+  input {
     width: 40%;
     font-size: 0.85em;
   }
-  #grow{
-     font-size: 0.7em;
-     color: grey;
-     margin-left: 2%;
+
+  #grow {
+    font-size: 0.7em;
+    color: grey;
+    margin-left: 2%;
   }
-  #egg{
+
+  #egg {
     border-bottom: none;
   }
-  #tenth{
-     border-bottom: solid 0.01em grey;
+
+  #tenth {
+    border-bottom: solid 0.01em grey;
   }
-  .ten1{
+
+  .ten1 {
     display: flex;
     justify-content: space-between;
     width: 70%;
     list-style: none;
     font-size: 0.8em;
-   
+
   }
-  .ten2{
+
+  .ten2 {
     display: flex;
     justify-content: space-between;
     width: 80%;
     list-style: none;
     font-size: 1em;
-   
+
   }
-  .ten3{
+
+  .ten3 {
     display: flex;
     justify-content: space-between;
     width: 87%;
     list-style: none;
     font-size: 0.8em;
-   
+
   }
-  .buns{
+
+  .buns {
     display: flex;
   }
-  .bins{
+
+  .bins {
     display: flex;
   }
-  #subi{
+
+  #subi {
     width: 100%;
   }
-  #subi:hover{
-  background-color:black;
-}
-  .yesa{
+
+  #subi:hover {
+    background-color: black;
+  }
+
+  .yesa {
     margin-left: 2%;
     width: 100%;
   }
-  .yesay{
+
+  .yesay {
     padding-left: 2%;
   }
-  .box{
+
+  .box {
     width: 35%;
     margin-left: 30%;
   }
-img.red{
-  height: 500px;
-  padding-top: 1%;
-  padding-bottom: 5%;
-}
-img.logo{
-   width: 210px;
-   height: auto;
-}
-#man{
-  width: 5%;
-  height: 20px;
-  text-align: center;
-  padding: 1%;
-  padding-bottom: 2%;
-}
 
-.small2{
- width: 60%;
- font-size: 1.9em;
- margin-left: 25%;
-}
-.small3{
+  img.red {
+    height: 500px;
+    padding-top: 1%;
+    padding-bottom: 5%;
+  }
+
+  img.logo {
+    width: 210px;
+    height: auto;
+  }
+
+  #man {
+    width: 5%;
+    height: 20px;
+    text-align: center;
+    padding: 1%;
+    padding-bottom: 2%;
+  }
+
+  .small2 {
+    width: 60%;
+    font-size: 1.9em;
+    margin-left: 25%;
+  }
+
+  .small3 {
     width: 25%;
     margin-left: 25%;
-}
- 
- #plane{
-  width: 48%;
- }
- #ship{
-  width: 48%;
- }
- #tex{
-  width: 25%;
- }
- .two{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-top: 10%;
- }
- #ship{
-  order: 1;
- }
- #plane{
-  order: 2;
- }
- #tex{
-  order: 3;
- }
+  }
+
+  #plane {
+    width: 48%;
+  }
+
+  #ship {
+    width: 48%;
+  }
+
+  #tex {
+    width: 25%;
+  }
+
+  .two {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10%;
+  }
+
+  #ship {
+    order: 1;
+  }
+
+  #plane {
+    order: 2;
+  }
+
+  #tex {
+    order: 3;
+  }
 
 
 }
